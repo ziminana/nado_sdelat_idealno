@@ -1,9 +1,9 @@
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 body,
 h1,
 h2,
@@ -23,12 +23,14 @@ blockquote {
 html {
   height: 100%;
 }
+
 body {
   height: 100%;
   min-width: 800px;
   position: relative;
   margin: 0;
   padding-top: 60px;
+  color: #feafe8;
 }
 
 h1 {
@@ -39,9 +41,11 @@ h1 {
   letter-spacing: 0.035em;
   text-align: center;
   width: 100%;
+  max-width: 739px;
   text-transform: uppercase;
   position: static;
   margin: 0 auto;
+  color: black;
 }
 
 h1::after {
@@ -50,6 +54,7 @@ h1::after {
 
 h1:hover {
   color: #4c4c4c;
+  cursor: pointer;
 }
 
 video {
@@ -69,19 +74,17 @@ video {
   padding: 36px 44px;
   white-space: pre;
   position: absolute;
-  font-family: "Raleway", "Arial", sans-serif;
+  font-family: inherit;
   font-size: 35px;
   font-weight: normal;
   line-height: 35px;
   letter-spacing: 0;
   text-align: left;
   border-radius: 20px;
-  border-top: 2px solid #000;
-  border-right: 2px solid #000;
-  border-left: 2px solid #000;
-  border-bottom: 14px solid #000;
+  border: 2px solid currentColor;
+  box-shadow: 0 12px 0 currentColor;
   background-color: #fff;
   color: #000000;
   top: 180px;
-  right:20px;
+  right: 20px;
 }
