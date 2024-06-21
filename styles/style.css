@@ -30,7 +30,7 @@ body {
   position: relative;
   margin: 0;
   padding-top: 60px;
-  color: #feafe8;
+  background-color: #fec7ee;
 }
 
 h1 {
@@ -54,7 +54,7 @@ h1::after {
 
 h1:hover {
   color: #4c4c4c;
-  cursor: pointer;
+  cursor: default;
 }
 
 video {
